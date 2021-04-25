@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body style="
+background: #43cea2;  
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+background: linear-gradient(to right, #185a9d, #43cea2);
+">
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Miguel Pellegrino</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 p-4">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
